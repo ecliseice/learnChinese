@@ -18,7 +18,7 @@ header #header__menu_nav {
   header #header__menu_nav ul.nav {
     padding-left: 60px; }
     header #header__menu_nav ul.nav li a {
-      color: #C19A40;
+      color: #e85155;
       padding: 0;
       font-weight: 600;
       font-size: 16px;
@@ -33,7 +33,7 @@ header .menu_nav__user_icon {
   margin-top: 10px;
   position: relative; }
   header .menu_nav__user_icon div .user_icon__user_login {
-    color: #C19A40;
+    color: #e85155;
     font-weight: 600;
     font-size: 16px; }
   header .menu_nav__user_icon div .user_icon__list_arrow {
@@ -44,7 +44,7 @@ header .menu_nav__user_icon {
       position: absolute;
       width: 2px;
       height: 10px;
-      border-right: 2px solid #C19A40;
+      border-right: 2px solid #e85155;
       transition: transform 0.2s;
       top: 6px; }
     header .menu_nav__user_icon div .user_icon__list_arrow:before {
@@ -79,7 +79,7 @@ header .menu_nav__user_icon {
         cursor: pointer;
         padding: 10px 0; }
         header .menu_nav__user_icon .user_icon__user_menu ul li a {
-          color: #C19A40;
+          color: #e85155;
           padding: 0;
           font-weight: 600;
           font-size: 14px;
