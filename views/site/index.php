@@ -4,50 +4,11 @@
 
 $this->title = 'LrnFckgLngg';
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
+<div class="container">
+    <div class="main__learn_methodology">
+        <h2>Метод обучения</h2>
+        <p>Learning Chinese is just like a child breaking down complicated models into building blocks. The child then starts grouping elements and soon he/she realizes that no matter how fancy and complicated the models are, they are all built out of the same set of building blocks.</p>
+        <p>Most Chinese characters are built out of roughly 100 building blocks. ShaoLan, Creator of Chineasy, designed a program that correlated each character and prioritized the most common and useful elements. ShaoLan teamed up with Noma Bar to create a groundbreaking visual approach to teaching basic building blocks. Each character is designed to reflect its etymology and meaning.</p>
+        <p>With the mission to expand the methodology of learning Chinese, ShaoLan started the Chineasy daily podcast and the Chineasy App. The app is awarded as Editor‘s Choice and was featured on the new Apple Watch App Store during the Apple Keynote from the San Jose Convention Center in 2019.</p>
     </div>
 </div>
