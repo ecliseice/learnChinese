@@ -1,0 +1,173 @@
+$base_font_color: #C19A40
+
+body
+  .app
+    background-color: #F7F7F7
+    height: 100%
+    a
+      text-decoration: none !important
+header
+  ul
+    list-style-type: none
+  #header__menu_nav
+    min-height: 70px
+    border-radius: 0
+    padding-bottom: 20px
+    padding-top: 20px
+    .menu_nav_logo
+      display: inline-block
+      a
+        font-size: 25px
+    ul.nav
+      padding-left: 60px
+      li
+        a
+          color: $base_font_color
+          padding: 0
+          font-weight: 600
+          font-size: 16px
+          transition: color 0.2s
+          &:hover
+            background-color: transparent
+        &:hover
+          a
+            color: #876b2c
+  .menu_nav__user_icon
+    cursor: pointer
+    float: right
+    margin-top: 10px
+    position: relative
+    div
+      .user_icon__user_login
+        color: $base_font_color
+        font-weight: 600
+        font-size: 16px
+      .user_icon__list_arrow
+        width: 15px
+        display: inline-block
+        &:before,&:after
+          content: ''
+          position: absolute
+          width: 2px
+          height: 10px
+          border-right: 2px solid $base_font_color
+          transition: transform 0.2s
+          top: 6px
+        &:before
+          right: 4px
+          transform: rotate(45deg)
+        &:after
+          right: 11px
+          transform: rotate(-45deg)
+        &.active
+          &:before
+            transform: rotate(135deg)
+          &:after
+            transform: rotate(-135deg)
+      &.active
+        .user_icon__list_arrow
+          &:before
+            transform: rotate(135deg)
+          &:after
+            transform: rotate(-135deg)
+      &:hover
+        .user_icon__user_login
+          color: #876b2c
+    .user_icon__user_menu
+      position: absolute
+      top: 30px
+      z-index: 10
+      right: 0
+      border-radius: 5px
+      min-width: 200px
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08)
+      background-color: #fff
+      ul
+        padding: 5px 15px
+        margin: 0
+        li
+          cursor: pointer
+          padding: 10px 0
+          a
+            color: $base_font_color
+            padding: 0
+            font-weight: 600
+            font-size: 14px
+            transition: color 0.2s
+          &:hover
+            a
+              color: #876b2c
+        li:not(:last-child)
+          border-bottom: 1px solid #eae7e7
+
+  .navbar-brand
+    font-size: 25px
+    padding: 18px 15px
+  #menu_nav__nav-burger
+    float: right
+    margin-top: 11px
+    height: 26px
+    width: 30px
+    position: relative
+    -webkit-border-radius: 5px
+    -moz-border-radius: 5px
+    border-radius: 5px
+    margin-left: 34px
+    cursor: pointer
+    &:hover
+      .nav_icon,
+      .nav_icon:after,
+      .nav_icon:before
+        border-bottom: 2px solid #2c1a1a
+    .nav_icon,
+    .nav_icon:after,
+    .nav_icon:before
+      transition: 0.3s
+      opacity: 1
+      width: 22px
+      position: absolute
+      border-bottom: 2px solid #eaa1a1
+    .nav_icon
+      top: 12px
+      left: 4px
+      border-radius: 5px
+      &:after, &:before
+        content: ''
+        left: 0
+      &:after
+        top: 6px
+      &:before
+        top: -6px
+    &.active
+      .nav_icon,
+      .nav_icon:after,
+      .nav_icon:before
+        width: 16px
+      .nav_icon
+        left: 7px
+        width: 0
+        &:after
+          transform: rotate(45deg)
+          top: 0
+        &:before
+          transform: rotate(-45deg)
+          top: 0
+
+@media (min-width: 768px)
+  #header__menu_nav
+    ul.nav
+      display: inline-block !important
+      & > li
+        display: inline-block
+        padding: 0 35px
+        &:after
+          height: 20px
+  #menu_nav__nav-burger
+    display: none
+
+@media (max-width: 768px)
+  #header__menu_nav
+    ul.nav
+      padding-left: 20px !important
+      & > li
+        padding: 5px
