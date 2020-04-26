@@ -4,7 +4,6 @@ $(document).ready(function () {
 
 let Header = {
     'ready': function () {
-        // $(document).on('click', '.header__user_icon',               function() {showUserMenu()});
         $(document).on('click', '[data-toggle="collapse"]',         function() {Header.togglePanel($(this))});
     },
     'togglePanel': function ($this) {

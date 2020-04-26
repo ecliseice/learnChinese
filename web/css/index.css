@@ -1,0 +1,16 @@
+main .main__learn_methodology h2 {
+  text-align: center;
+  font-weight: 500;
+  color: #e85155; }
+main .main__learn_methodology .learn_methodology__block {
+  display: flex;
+  align-items: center;
+  height: 220px; }
+  main .main__learn_methodology .learn_methodology__block span {
+    padding: 40px; }
+  main .main__learn_methodology .learn_methodology__block .block__picture {
+    text-align: center; }
+    main .main__learn_methodology .learn_methodology__block .block__picture img {
+      width: 150px; }
+
+/*# sourceMappingURL=index.css.map */
