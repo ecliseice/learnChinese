@@ -1,4 +1,5 @@
 $base_font_color: #e85155
+$block_size: 100px
 
 main
   .main__learn_methodology
@@ -12,7 +13,62 @@ main
       height: 220px
       span
         padding: 40px
-      .block__picture
+      .rotate_block_container
+        perspective: 1000px
         text-align: center
-        img
-          width: 150px
+        -webkit-touch-callout: none
+        -webkit-user-select: none
+        -khtml-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+        .rotate_block
+          // border: 2px dotted white
+          transform-style: preserve-3d
+          // transform: rotateY(90deg) rotateZ(-45deg) rotateX(-45deg)
+          // transform: rotateY(0deg) rotateX(23deg)
+          animation: rotate 10s infinite linear
+          display: inline-block
+          &,.side
+            width: $block_size
+            height: $block_size
+          &:before, &:after
+            content: ""
+            display: inline-block
+            position: absolute
+            width: $block_size
+            height: $block_size
+            // border: 2px dotted white
+          &:before
+            transform: rotateX(90deg)
+          &:after
+            transform: rotatey(90deg)
+          .side
+            position: absolute
+            display: flex
+            justify-content: center
+            align-items: center
+          .back
+            transform: translateZ(-$block_size/2) rotateY(180deg)
+            background: orange
+          .left
+            transform: translateX(-$block_size/2) rotateY(270deg)
+            background: url('http://img-fotki.yandex.ru/get/4209/yoksel.52/0_3b7b2_ee1602c6_M.jpg') center
+          .right
+            transform: translateX($block_size/2) rotateY(90deg)
+            background: yellowgreen
+          .top
+            transform: translateY(-$block_size/2) rotateX(90deg)
+            background: skyblue
+          .bottom
+            transform: translateY($block_size/2) rotateX(90deg)
+            background: steelblue
+          .front
+            transform: translateZ($block_size/2)
+            background: gold
+
+
+@keyframes rotate
+  100%
+    transform: rotatex(360deg) rotateY(360deg) rotateZ(360deg)
+    //transform: rotateY(360deg)

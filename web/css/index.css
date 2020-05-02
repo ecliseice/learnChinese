@@ -8,9 +8,58 @@ main .main__learn_methodology .learn_methodology__block {
   height: 220px; }
   main .main__learn_methodology .learn_methodology__block span {
     padding: 40px; }
-  main .main__learn_methodology .learn_methodology__block .block__picture {
-    text-align: center; }
-    main .main__learn_methodology .learn_methodology__block .block__picture img {
-      width: 150px; }
+  main .main__learn_methodology .learn_methodology__block .rotate_block_container {
+    perspective: 1000px;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block {
+      transform-style: preserve-3d;
+      animation: rotate 10s infinite linear;
+      display: inline-block; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block, main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .side {
+        width: 100px;
+        height: 100px; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block:before, main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block:after {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 100px;
+        height: 100px; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block:before {
+        transform: rotateX(90deg); }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block:after {
+        transform: rotatey(90deg); }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .side {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .back {
+        transform: translateZ(-50px) rotateY(180deg);
+        background: orange; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .left {
+        transform: translateX(-50px) rotateY(270deg);
+        background: url("http://img-fotki.yandex.ru/get/4209/yoksel.52/0_3b7b2_ee1602c6_M.jpg") center; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .right {
+        transform: translateX(50px) rotateY(90deg);
+        background: yellowgreen; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .top {
+        transform: translateY(-50px) rotateX(90deg);
+        background: skyblue; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .bottom {
+        transform: translateY(50px) rotateX(90deg);
+        background: steelblue; }
+      main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .front {
+        transform: translateZ(50px);
+        background: gold; }
+
+@keyframes rotate {
+  100% {
+    transform: rotatex(360deg) rotateY(360deg) rotateZ(360deg); } }
 
 /*# sourceMappingURL=index.css.map */
