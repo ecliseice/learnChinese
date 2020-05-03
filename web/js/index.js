@@ -25,3 +25,13 @@ function mouseMoved(ev) {
 
     $(".rotate_block").css("transform", "rotateX( " + rotX + "deg) rotateY(" + rotY + "deg)");
 }
+
+
+
+// $(document).on('click', 'body', function () {
+//     $('.test').show();
+//     new Vivus('.test', {
+//         duration: 200,
+//         type: 'scenario'
+//     });
+// })
