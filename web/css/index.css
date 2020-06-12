@@ -1,3 +1,6 @@
+main .main_poster {
+  height: 70vh;
+  background-color: #ccc; }
 main .main__learn_methodology h2 {
   text-align: center;
   font-weight: 500;
@@ -57,6 +60,22 @@ main .main__learn_methodology .learn_methodology__block {
       main .main__learn_methodology .learn_methodology__block .rotate_block_container .rotate_block .front {
         transform: translateZ(50px);
         background: gold; }
+main .main__learn_methodology .methodology__learning_road {
+  overflow: scroll; }
+  main .main__learn_methodology .methodology__learning_road::-webkit-scrollbar {
+    display: none; }
+  main .main__learn_methodology .methodology__learning_road .learning_road__stations {
+    display: flex;
+    height: 85vh;
+    align-items: center; }
+    main .main__learn_methodology .methodology__learning_road .learning_road__stations .stations_station {
+      margin-left: 100px;
+      width: 600px; }
+      main .main__learn_methodology .methodology__learning_road .learning_road__stations .stations_station p {
+        white-space: normal;
+        width: 600px; }
+      main .main__learn_methodology .methodology__learning_road .learning_road__stations .stations_station img {
+        width: 100%; }
 
 @keyframes rotate {
   100% {

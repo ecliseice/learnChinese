@@ -7,23 +7,138 @@ IndexAsset::register($this);
 
 $this->title = 'LrnFckgLngg';
 ?>
+<section class="main_poster">
+    <img src="main_poster" alt="main_poster">
+</section>
 <div class="container">
     <section class="main__learn_methodology">
         <h2>Метод обучения</h2>
-        <article class="learn_methodology__block">
-            <span class="col-sm-8">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque eaque excepturi expedita mollitia nam neque obcaecati officia pariatur quasi quia, recusandae similique. Dignissimos labore maiores soluta sunt voluptatibus?
-            </span>
-            <div class="block__picture rotate_block_container col-sm-4">
-                <div class="rotate_block">
-                    <div class="back side">54654</div>
-                    <div class="left side">345</div>
-                    <div class="right side">45666</div>
-                    <div class="top side"></div>
-                    <div class="bottom side"></div>
-                    <div class="front side">123</div>
+
+        <div id="luxy" class="methodology__learning_road">
+            <div class="learning_road__stations luxy-el" data-horizontal="1" data-speed-x="5" data-speed-y="5" data-offset="-50">
+                <div class="stations_station ">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corporis ducimus in nemo quia quod. Cumque delectus eius illum minus nam pariatur sapiente. Eaque et excepturi iure nihil praesentium voluptas!</p>
+                    <img class="first" src="/img/test/1.png" alt="1">
+                </div>
+                <div class="stations_station">
+                    <img class="first" src="/img/test/2.png" alt="1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio et ipsa molestias nisi quibusdam voluptates voluptatum! Corporis deserunt fugit id impedit ipsum iure laborum molestiae nobis sint tempore?</p>
+                </div>
+                <div class="stations_station">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet modi odit rem reprehenderit. Accusantium adipisci at consequuntur, cum cupiditate dicta ducimus ex exercitationem fuga magni, maiores minima natus pariatur suscipit?</p>
+                    <img class="first" src="/img/test/3.png" alt="1">
                 </div>
             </div>
-        </article>
+        </div>
+
+
+
+
+<!--        "bower-asset/smooth-scrollbar":"*"-->
+
+
+
+
+<!--        <article class="learn_methodology__block">-->
+<!--            <span class="col-sm-8">-->
+<!--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque eaque excepturi expedita mollitia nam neque obcaecati officia pariatur quasi quia, recusandae similique. Dignissimos labore maiores soluta sunt voluptatibus?-->
+<!--            </span>-->
+<!--            <div class="block__picture rotate_block_container col-sm-4">-->
+<!--                <div class="rotate_block">-->
+<!--                    <div class="back side">54654</div>-->
+<!--                    <div class="left side">345</div>-->
+<!--                    <div class="right side">45666</div>-->
+<!--                    <div class="top side"></div>-->
+<!--                    <div class="bottom side"></div>-->
+<!--                    <div class="front side">123</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </article>-->
     </section>
+<!--    <svg class="test" style="display: none"-->
+<!--         xmlns:dc="http://purl.org/dc/elements/1.1/"-->
+<!--         xmlns:cc="http://creativecommons.org/ns#"-->
+<!--         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"-->
+<!--         xmlns:svg="http://www.w3.org/2000/svg"-->
+<!--         xmlns="http://www.w3.org/2000/svg"-->
+<!--         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"-->
+<!--         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"-->
+<!--         width="81.529877mm"-->
+<!--         height="84.931656mm"-->
+<!--         viewBox="0 0 81.529877 84.931656"-->
+<!--         version="1.1"-->
+<!--         id="svg8"-->
+<!--         inkscape:version="0.92.5 (0.92.5+69)"-->
+<!--         sodipodi:docname="drawing.svg">-->
+<!--        <defs-->
+<!--                id="defs2" />-->
+<!--        <sodipodi:namedview-->
+<!--                id="base"-->
+<!--                pagecolor="#ffffff"-->
+<!--                bordercolor="#666666"-->
+<!--                borderopacity="1.0"-->
+<!--                inkscape:pageopacity="0.0"-->
+<!--                inkscape:pageshadow="2"-->
+<!--                inkscape:zoom="0.7"-->
+<!--                inkscape:cx="-276.00499"-->
+<!--                inkscape:cy="70.380136"-->
+<!--                inkscape:document-units="mm"-->
+<!--                inkscape:current-layer="layer1"-->
+<!--                showgrid="false"-->
+<!--                fit-margin-top="0"-->
+<!--                fit-margin-left="0"-->
+<!--                fit-margin-right="0"-->
+<!--                fit-margin-bottom="0"-->
+<!--                inkscape:window-width="1920"-->
+<!--                inkscape:window-height="1026"-->
+<!--                inkscape:window-x="1920"-->
+<!--                inkscape:window-y="27"-->
+<!--                inkscape:window-maximized="1" />-->
+<!--        <metadata-->
+<!--                id="metadata5">-->
+<!--            <rdf:RDF>-->
+<!--                <cc:Work-->
+<!--                        rdf:about="">-->
+<!--                    <dc:format>image/svg+xml</dc:format>-->
+<!--                    <dc:type-->
+<!--                            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />-->
+<!--                    <dc:title></dc:title>-->
+<!--                </cc:Work>-->
+<!--            </rdf:RDF>-->
+<!--        </metadata>-->
+<!--        <g-->
+<!--                inkscape:label="Layer 1"-->
+<!--                inkscape:groupmode="layer"-->
+<!--                id="layer1"-->
+<!--                transform="translate(-54.29607,-83.310951)">-->
+<!--            <path data-start="0" data-duration="50"-->
+<!--                  style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"-->
+<!--                  d="m 98.651784,97.050594 c 0,1.133928 0,2.267858 0,3.401786 0,0.25198 0.04942,0.50886 0,0.75595 -0.07814,0.39069 -0.312476,0.74093 -0.377976,1.13393 -0.06214,0.37283 0.07413,0.76329 0,1.13393 -0.05525,0.27625 -0.322726,0.4797 -0.377976,0.75595 -0.07413,0.37064 0.108612,0.7719 0,1.13393 -0.275717,0.91906 -0.830501,1.73554 -1.133927,2.64583 -0.328549,0.98564 -0.482587,2.02146 -0.755955,3.02381 -0.10483,0.38439 -0.299839,0.74325 -0.377975,1.13393 -0.04942,0.24709 0,0.50397 0,0.75595 -0.125992,0.50397 -0.235265,1.01242 -0.377976,1.51191 -0.690523,2.41683 -0.210802,-0.0182 -0.755952,1.88988 -0.15376,0.53816 -0.485846,2.77153 -0.755954,3.40178 -0.178946,0.41755 -0.571455,0.71882 -0.755952,1.13393 -0.323627,0.72817 -0.546288,1.4991 -0.755951,2.26786 -0.443704,1.62691 -0.182518,1.68579 -0.755952,3.02381 -0.979038,2.28442 -0.427339,0.74784 -1.511906,2.64583 -0.279551,0.48922 -0.482314,1.01936 -0.755951,1.51191 -0.35678,0.6422 -0.77715,1.24768 -1.13393,1.88988 -0.273638,0.49255 -0.443405,1.04308 -0.755952,1.5119 -0.4475,0.67126 -1.016614,1.25308 -1.511906,1.88988 -0.386757,0.49726 -0.719095,1.03782 -1.133927,1.51191 -0.469329,0.53638 -1.116561,0.91889 -1.511906,1.51191 -0.376357,0.56453 -0.314397,1.37473 -0.755952,1.88987 -0.366691,0.42781 -1.113483,0.35754 -1.511903,0.75596 -0.281728,0.28172 -0.129085,0.82281 -0.377979,1.13393 -0.283778,0.35472 -0.81271,0.43473 -1.133927,0.75595 -0.321217,0.32122 -0.472173,0.7792 -0.755952,1.13393 -0.222617,0.27827 -0.533336,0.47768 -0.755954,0.75595 -0.283779,0.35473 -0.434734,0.81271 -0.755951,1.13393 -0.321218,0.32122 -0.812711,0.43473 -1.133928,0.75595 -0.781764,0.78176 -0.463378,1.00899 -1.13393,1.5119 -0.363416,0.27257 -0.770512,0.4834 -1.133927,0.75596 -0.495332,0.3715 -0.798889,1.06518 -1.13393,1.5119 -0.31423,0.41898 -0.84373,0.69863 -1.133928,1.13393 -0.156273,0.23441 -0.178766,0.55674 -0.377976,0.75595 -0.08909,0.0891 -0.265287,-0.0563 -0.377976,0 -0.467066,0.23354 -0.377975,0.36493 -0.377975,0.75596"-->
+<!--                  id="path18"-->
+<!--                  inkscape:connector-curvature="0" />-->
+<!--            <path data-start="0" data-duration="10"-->
+<!--                  style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"-->
+<!--                  d="m 92.22619,121.61905 c 0.578093,1.58281 1.642287,2.97179 2.267857,4.53571 0.295939,0.73985 0.460013,1.52801 0.755952,2.26786 0.104629,0.26157 0.273346,0.49437 0.377976,0.75595 0.14797,0.36992 0.199797,0.77757 0.377975,1.13393 0.203158,0.40631 0.552797,0.72761 0.755955,1.13393 0.178178,0.35636 0.199794,0.77757 0.377975,1.13392 0.203156,0.40632 0.552797,0.72762 0.755952,1.13393 0.178181,0.35636 0.230005,0.76401 0.377976,1.13393 0.104632,0.26158 0.251984,0.50397 0.377976,0.75595 0.503967,1.00794 0.932116,2.0575 1.511906,3.02382 0.23372,0.38953 0.52223,0.74439 0.75595,1.13392 0.7066,1.17766 0.0194,0.49672 1.13393,1.88988 0.22262,0.27827 0.50397,0.50397 0.75595,0.75596 0.12599,0.12599 0.29829,0.2186 0.37798,0.37797 0.17818,0.35636 0.15697,0.80242 0.37797,1.13393 0.0699,0.10483 0.28889,-0.0891 0.37798,0 0.19921,0.19921 0.2217,0.52154 0.37798,0.75595 0.5789,0.86835 0.2159,-0.16207 1.13393,0.75596 0.0891,0.0891 -0.0891,0.28888 0,0.37797 0.0891,0.0891 0.26528,-0.0563 0.37797,0 0.15937,0.0797 0.25199,0.25198 0.37798,0.37798 0.12599,0.12599 0.29829,0.21861 0.37797,0.37798 0.0563,0.11268 -0.0891,0.28888 0,0.37797 0.0891,0.0891 0.28889,-0.0891 0.37798,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.0891,0.0891 0.26529,-0.0563 0.37798,0 0.15936,0.0797 0.2186,0.29829 0.37797,0.37797 0.1127,0.0564 0.28889,-0.0891 0.37798,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.0891,0.0891 0.26528,-0.0564 0.37798,0 0.31873,0.15937 0.43721,0.59658 0.75595,0.75595 0.11269,0.0564 0.28888,-0.0891 0.37797,0 0.0891,0.0891 -0.0891,0.28889 0,0.37798 0.17818,0.17818 0.57778,-0.17818 0.75596,0 0.0891,0.0891 -0.0891,0.28888 0,0.37797 0.0891,0.0891 0.28888,-0.0891 0.37797,0 0.0891,0.0891 -0.11269,0.32163 0,0.37798 1.86827,0.93413 -0.0828,-0.83871 1.13393,0.37798"-->
+<!--                  id="path20"-->
+<!--                  inkscape:connector-curvature="0" />-->
+<!--            <path data-start="20" data-duration="10"-->
+<!--                  style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"-->
+<!--                  d="m 87.312499,109.90178 c -0.44391,1.0358 -1.067993,1.98802 -1.511906,3.02381 -0.156946,0.36621 -0.17299,0.79229 -0.377976,1.13393 -0.183345,0.30558 -0.533336,0.47769 -0.755951,0.75596 -0.283782,0.35472 -0.472173,0.7792 -0.755952,1.13392 -0.222618,0.27827 -0.503968,0.50397 -0.755954,0.75595 -0.377976,0.37798 -0.755952,0.75596 -1.133928,1.13393 -0.251984,0.25199 -0.558278,0.45945 -0.755951,0.75596 -3.24353,4.86529 1.554628,-1.17666 -1.889882,2.26785 -0.321217,0.32122 -0.406971,0.84311 -0.755952,1.13393 -0.432858,0.36072 -1.043082,0.44341 -1.511905,0.75596 -0.296508,0.19767 -0.503968,0.50396 -0.755952,0.75595 -0.377976,0.37797 -0.731647,0.78193 -1.13393,1.13392 -0.607134,0.53125 -1.277356,0.98689 -1.889879,1.51191 -0.270568,0.23192 -0.470866,0.54214 -0.755954,0.75595 -0.190344,0.83275 -0.777569,0.1998 -1.133928,0.37798 -0.159369,0.0797 -0.251984,0.25198 -0.377976,0.37797"-->
+<!--                  id="path22"-->
+<!--                  inkscape:connector-curvature="0" />-->
+<!--            <path data-start="30" data-duration="10"-->
+<!--                  style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"-->
+<!--                  d="m 106.90781,112.45039 c -0.008,0.41948 0.22192,0.79454 0.26727,1.20271 0.0246,0.22136 -0.0586,0.4533 0,0.66818 0.0786,0.28828 0.28993,0.52436 0.4009,0.80181 0.22072,0.55179 0.0893,0.84717 0.26727,1.46998 0.0932,0.32619 0.29363,0.61361 0.40091,0.93544 0.0718,0.21548 0.0891,0.44545 0.13363,0.66817 0.13364,0.26727 0.2832,0.52716 0.40091,0.80181 0.14992,0.34982 0.27289,0.71066 0.4009,1.06908 0.0948,0.26531 0.14128,0.54983 0.26727,0.80181 0.0996,0.19921 0.27736,0.34922 0.40091,0.53454 0.14407,0.21612 0.25682,0.45206 0.4009,0.66817 0.12354,0.18532 0.3013,0.33533 0.4009,0.53454 0.12599,0.25199 0.15285,0.54437 0.26727,0.80181 0.11315,0.25457 0.72163,0.95682 0.80181,1.06908 0.0579,0.0811 0.0739,0.18758 0.13364,0.26727 0.0756,0.10079 0.18856,0.16888 0.26726,0.26727 0.20067,0.25083 0.33388,0.55098 0.53455,0.80181 0.0787,0.0984 0.18856,0.16888 0.26726,0.26726 0.10034,0.12542 0.15371,0.28734 0.26727,0.40091 0.0704,0.0704 0.19684,0.0632 0.26727,0.13364 0.0315,0.0315 -0.0141,0.0914 0,0.13363 0.0315,0.0945 0.0632,0.19684 0.13364,0.26727 0.0704,0.0704 0.19684,0.0632 0.26727,0.13363 0.0315,0.0315 -0.0199,0.0938 0,0.13364 0.0282,0.0563 0.0891,0.0891 0.13363,0.13363 0.0856,0.0856 0.45117,0.40948 0.53454,0.53454 0.0553,0.0829 0.0632,0.19684 0.13364,0.26727 0.0315,0.0315 0.10213,-0.0315 0.13363,0 0.0704,0.0704 0.0784,0.18439 0.13363,0.26727 0.0699,0.10483 0.17819,0.17818 0.26728,0.26727 0.22272,0.22272 0.44544,0.44545 0.66817,0.66817"-->
+<!--                  id="path26"-->
+<!--                  inkscape:connector-curvature="0" />-->
+<!--            <rect-->
+<!--                    id="rect50"-->
+<!--                    width="81.264877"-->
+<!--                    height="84.666664"-->
+<!--                    x="54.42857"-->
+<!--                    y="83.443451"-->
+<!--                    ry="24.616735"-->
+<!--                    style="fill:none;stroke-width:0.25749499" />-->
+<!--        </g>-->
+<!--    </svg>-->
 </div>

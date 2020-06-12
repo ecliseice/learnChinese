@@ -17,6 +17,7 @@ class IndexAsset extends AssetBundle
         'css/index.css',
     ];
     public $js = [
+        'js/scroll.js',
         'js/vivus.js',
         'js/index.js',
     ];
