@@ -2,11 +2,13 @@
 
 /* @var $this yii\web\View */
 use app\assets\IndexAsset;
+use yii\helpers\Html;
 
 IndexAsset::register($this);
 
 $this->title = 'LrnFckgLngg';
 ?>
+<a href="/site/signup">Регистрация</a>
 <section class="main_poster">
     <img src="main_poster" alt="main_poster">
 </section>
@@ -18,15 +20,15 @@ $this->title = 'LrnFckgLngg';
             <div class="learning_road__stations luxy-el" data-horizontal="1" data-speed-x="5" data-speed-y="5" data-offset="-50">
                 <div class="stations_station ">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A corporis ducimus in nemo quia quod. Cumque delectus eius illum minus nam pariatur sapiente. Eaque et excepturi iure nihil praesentium voluptas!</p>
-                    <img class="first" src="/img/test/1.png" alt="1">
+                    <?= Html::img(Yii::getAlias('@web').'/img/test/1.png', ['alt' => '1']);?>
                 </div>
                 <div class="stations_station">
-                    <img class="first" src="/img/test/2.png" alt="1">
+                    <img class="first" src="web/img/test/2.png" alt="1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corporis distinctio et ipsa molestias nisi quibusdam voluptates voluptatum! Corporis deserunt fugit id impedit ipsum iure laborum molestiae nobis sint tempore?</p>
                 </div>
                 <div class="stations_station">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet modi odit rem reprehenderit. Accusantium adipisci at consequuntur, cum cupiditate dicta ducimus ex exercitationem fuga magni, maiores minima natus pariatur suscipit?</p>
-                    <img class="first" src="/img/test/3.png" alt="1">
+                    <img class="first" src="web/img/test/3.png" alt="1">
                 </div>
             </div>
         </div>
@@ -39,21 +41,21 @@ $this->title = 'LrnFckgLngg';
 
 
 
-<!--        <article class="learn_methodology__block">-->
-<!--            <span class="col-sm-8">-->
-<!--                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque eaque excepturi expedita mollitia nam neque obcaecati officia pariatur quasi quia, recusandae similique. Dignissimos labore maiores soluta sunt voluptatibus?-->
-<!--            </span>-->
-<!--            <div class="block__picture rotate_block_container col-sm-4">-->
-<!--                <div class="rotate_block">-->
-<!--                    <div class="back side">54654</div>-->
-<!--                    <div class="left side">345</div>-->
-<!--                    <div class="right side">45666</div>-->
-<!--                    <div class="top side"></div>-->
-<!--                    <div class="bottom side"></div>-->
-<!--                    <div class="front side">123</div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </article>-->
+        <article class="learn_methodology__block">
+            <span class="col-sm-8">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto at cumque eaque excepturi expedita mollitia nam neque obcaecati officia pariatur quasi quia, recusandae similique. Dignissimos labore maiores soluta sunt voluptatibus?
+            </span>
+            <div class="block__picture rotate_block_container col-sm-4">
+                <div class="rotate_block">
+                    <div class="back side">54654</div>
+                    <div class="left side">345</div>
+                    <div class="right side">45666</div>
+                    <div class="top side"></div>
+                    <div class="bottom side"></div>
+                    <div class="front side">123</div>
+                </div>
+            </div>
+        </article>
     </section>
 <!--    <svg class="test" style="display: none"-->
 <!--         xmlns:dc="http://purl.org/dc/elements/1.1/"-->

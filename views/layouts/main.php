@@ -33,7 +33,14 @@ AppAsset::register($this);
             <div id="menu_nav__nav-burger" data-toggle="collapse" data-target="header_nav">
                 <span class="nav_icon"></span>
             </div>
-            <div class="menu_nav__user_icon">
+            <div class="menu_nav_guest_actions">
+                <div class="guest_action menu_nav__login_btn">
+                    <span>
+                        <a href="/site/login">Войти</a>
+                    </span>
+                </div>
+            </div>
+            <!--<div class="menu_nav__user_icon">
                 <div data-toggle="collapse" data-target="user_menu" data-mouse="true">
                     <span class="user_icon__user_login open_menu" >login</span>
                     <span class="user_icon__list_arrow"></span>
@@ -44,7 +51,7 @@ AppAsset::register($this);
                         <li><a href="user/logout">Выйти</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
             <ul class="menu_nav__nav nav collapse" id="header_nav">
                 <li><a href="/learn" itemprop="url">Обучение</a></li>
                 <li><a href="/games" itemprop="url">Игры</a></li>

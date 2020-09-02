@@ -10,17 +10,15 @@ use yii\web\AssetBundle;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class IndexAsset extends AssetBundle
+class SignupAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/index.css',
+        'css/signup.css',
     ];
     public $js = [
-        'js/scroll.js',
-        'js/vivus.js',
-        'js/index.js',
+
     ];
     public $depends = [
         'app\assets\AppAsset',
